@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: hello-world-nodejs
-        image: quay.io/ukhomeofficedigital/dsp-hello-world:{{.APP_VERSION}}
+        image: quay.io/ukhomeofficedigital/dsp-hello-world-searler:984939c3358cc0772367621a4e92ca5cda87e9b8
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 4000
